@@ -1,4 +1,4 @@
-# Footfall Detection System using YOLOv8
+# Footfall Detection System
 
 ## Table of Contents
 - [Introduction](#introduction)
