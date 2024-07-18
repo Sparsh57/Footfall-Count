@@ -1,11 +1,11 @@
+from datetime import datetime
+import sqlite3
+import json
 import cv2
 import numpy as np
 from collections import defaultdict
 from ultralytics import YOLO
 from ultralytics.utils.plotting import Annotator, colors
-from datetime import datetime
-import sqlite3
-import json
 
 track_history = defaultdict(lambda: [])
 model = YOLO("YOLOv8n-seg.pt")
